@@ -9,11 +9,11 @@ Find your Slack's application directory.
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  $.ajax({
+$.ajax({
     url: 'https://raw.githubusercontent.com/DempseyBlum/slack-dark-theme/master/theme.css',
     success: function(css) {
-      $("<style></style>").appendTo('head').html(css);
+        $("<style></style>").appendTo('head').html(css);
     }
-  });
  });
+});
  
